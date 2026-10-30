@@ -8,6 +8,10 @@ name = "blog_os"
 test = true
 bench = false
 
+[[test]]
+name = "stack_overflow"
+harness = false
+
 [profile.release]
 panic = "abort"
 
